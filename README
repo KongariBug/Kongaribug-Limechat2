@@ -1,0 +1,10 @@
+LimeChat2用のスクリプト置き場です
+
+- topic.js
+topicと発言することで、直前の配信URLを自動でtopicに設定します。
+
+-untopic.js
+
+-mulnote.js
+キーワード音として{userScriptFilePath}/se 以下にあるファイルからランダムに1つを選び音を鳴らします。
+デフォルトではおそらく c:/Program Files/LimeChat2/users/{user名}/scripts/files/se 以下になります。
