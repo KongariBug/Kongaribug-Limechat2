@@ -5,7 +5,7 @@
 // > wav ファイルを再生します。 
 // > 相対パスの場合には、userScriptFilePath を起点とします。 
 
-function mulse(channel){
+function mulse(){
     var fso, f, e, i, n;
     fso = new ActiveXObject("Scripting.FileSystemObject");
     f = fso.GetFolder(userScriptFilePath+"/se");
@@ -18,5 +18,5 @@ function mulse(channel){
 }
 
 function event::onHighlight(prefix, command,  channel, text){
-    mulse(channel);
+    mulse();
 }
